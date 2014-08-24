@@ -55,3 +55,7 @@ msgstr "ceci page 2!!"
 #: src/app/index.html
 msgid "Translate POC"
 msgstr "Traduction POC"
+
+#: src/app/main.js
+msgid "dynamicMessage"
+msgstr "Message Dynamic"

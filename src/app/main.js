@@ -17,8 +17,8 @@ angular.module('app')
     .controller('dynamicMessageController', function ($scope, gettextCatalog) {
         $scope.$watch(function () {
             return gettextCatalog.getString('dynamicMessage');
-        }, function (message) {
-            $scope.dynamicMessage = message;
+        }, function (dynamicMessage) {
+            $scope.dynamicMessage = dynamicMessage;
         });
     })
     .config(function ($routeProvider) {
@@ -38,9 +38,4 @@ angular.module('app')
     })
     .run(function (gettextCatalog) {
         gettextCatalog.setCurrentLanguage('en');
-
-        gettextCatalog.setStrings('en', {'dynamicMessage': 'Dynamic Message'});
-        gettextCatalog.setStrings('fr', {'dynamicMessage': 'Message Dynamic'});
-        gettextCatalog.setStrings('it', {'dynamicMessage': 'Messaggio Dinamico'});
-        gettextCatalog.setStrings('de', {'dynamicMessage': 'Dynamische Mitteilung'});
     });

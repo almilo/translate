@@ -46,3 +46,7 @@ msgstr ""
 #: src/app/index.html
 msgid "Translate POC"
 msgstr ""
+
+#: src/app/main.js
+msgid "dynamicMessage"
+msgstr ""

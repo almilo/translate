@@ -55,3 +55,7 @@ msgstr "Das ist Seite 2!!"
 #: src/app/index.html
 msgid "Translate POC"
 msgstr "Übersetzung POC"
+
+#: src/app/main.js
+msgid "dynamicMessage"
+msgstr "Dynamische Mitteilung"

@@ -55,3 +55,7 @@ msgstr "This is page 2!!"
 #: src/app/index.html
 msgid "Translate POC"
 msgstr "Translate POC"
+
+#: src/app/main.js
+msgid "dynamicMessage"
+msgstr "Dynamic Message"
