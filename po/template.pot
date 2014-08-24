@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/app/index.html
+msgid "English"
+msgstr ""
+
+#: src/app/index.html
+msgid "French"
+msgstr ""
+
+#: src/app/index.html
+msgid "German"
+msgstr ""
+
+#: src/app/index.html
+msgid "Home"
+msgstr ""
+
+#: src/app/index.html
+msgid "Italian"
+msgstr ""
+
+#: src/app/index.html
+msgid "Page 1"
+msgstr ""
+
+#: src/app/index.html
+msgid "Page 2"
+msgstr ""
+
+#: src/app/views/home.tpl.html
+msgid "This is home!!"
+msgstr ""
+
+#: src/app/views/page1.tpl.html
+msgid "This is page 1!!"
+msgstr ""
+
+#: src/app/views/page2.tpl.html
+msgid "This is page 2!!"
+msgstr ""
+
+#: src/app/index.html
+msgid "Translate POC"
+msgstr ""

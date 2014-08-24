@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Translation POC\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/app/index.html
+msgid "English"
+msgstr "English"
+
+#: src/app/index.html
+msgid "French"
+msgstr "French"
+
+#: src/app/index.html
+msgid "German"
+msgstr "German"
+
+#: src/app/index.html
+msgid "Home"
+msgstr "Home"
+
+#: src/app/index.html
+msgid "Italian"
+msgstr "Italian"
+
+#: src/app/index.html
+msgid "Page 1"
+msgstr "Page 1"
+
+#: src/app/index.html
+msgid "Page 2"
+msgstr "Page 2"
+
+#: src/app/views/home.tpl.html
+msgid "This is home!!"
+msgstr "This is home!!"
+
+#: src/app/views/page1.tpl.html
+msgid "This is page 1!!"
+msgstr "This is page 1!!"
+
+#: src/app/views/page2.tpl.html
+msgid "This is page 2!!"
+msgstr "This is page 2!!"
+
+#: src/app/index.html
+msgid "Translate POC"
+msgstr "Translate POC"

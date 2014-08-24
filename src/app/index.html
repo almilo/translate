@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Translate POC</title>
+    </head>
+    <body ng-app="app">
+        <h1 translate>Translate POC</h1>
+
+        <ul>
+            <li><a href="#/home" translate>Home</a></li>
+            <li><a href="#/page1" translate>Page 1</a></li>
+            <li><a href="#/page2" translate>Page 2</a></li>
+        </ul>
+
+        <div ng-controller="languageController">
+            <span ng-bind="language"></span>
+            <ul>
+                <li><a href="" ng-click="setLanguage('en')" translate>English</a></li>
+                <li><a href="" ng-click="setLanguage('de')" translate>German</a></li>
+                <li><a href="" ng-click="setLanguage('fr')" translate>French</a></li>
+                <li><a href="" ng-click="setLanguage('it')" translate>Italian</a></li>
+            </ul>
+        </div>
+
+        <div ng-view></div>
+
+        <script src="../../bower_components/angular/angular.js"></script>
+        <script src="../../bower_components/angular-route/angular-route.js"></script>
+        <script src="../../bower_components/angular-gettext/dist/angular-gettext.js"></script>
+        <script language="JavaScript" src="app.js"></script>
+    </body>
+</html>
