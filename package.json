@@ -12,11 +12,7 @@
             "path": "src/app/index.html"
         },
         "js": {
-            "entry": "",
-            "entries": [
-                "src/app/main.js",
-                "src/app/translations.js"
-            ],
+            "entry": "src/app/main.js",
             "alias": "src/app/app.js"
         }
     },
